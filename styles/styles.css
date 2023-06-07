@@ -1,0 +1,50 @@
+* {
+    background-color: hsl(200, 2%, 24%);
+
+}
+
+#head-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#head-div h1 {
+    font-size: 35px;
+    font-family: 'Satisfy', cursive;
+}
+
+#img-main {
+    width: 15.5rem;
+    height: 10.5rem;
+}
+
+#label-img {
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+}
+
+#ingredients-div {
+    position: relative;
+    left: 10%;
+    font-family: 'Satisfy', cursive;
+    line-height: 22px;
+}
+
+#ingredients-div ol {
+    list-style-type: square;
+}
+
+#way-of-preparation-div {
+    position: relative;
+    left: 10%;
+    margin-top: 1%;
+    font-family: 'Satisfy', cursive;
+    line-height: 27px;
+}
+
+#way-of-preparation-div ol {
+    list-style: decimal;
+}
