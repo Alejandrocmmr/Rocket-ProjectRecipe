@@ -1,0 +1,27 @@
+* {
+    background-color: hsl(200, 2%, 24%) wrap
+}
+
+#img-main {
+    width: 15.5rem;
+    height: 10.5rem;
+}
+
+#ingredients {
+    position: relative;
+    left: 10%;
+}
+
+#ingredients ol {
+    list-style-type: square;
+}
+
+#way-of-preparation {
+    position: relative;
+    left: 10%;
+    margin-top: 1%;
+}
+
+#way-of-preparation ol {
+    list-style: decimal;
+}
