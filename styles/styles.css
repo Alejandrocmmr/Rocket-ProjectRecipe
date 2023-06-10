@@ -1,50 +1,178 @@
 * {
-    background-color: hsl(200, 2%, 24%);
-
+    box-sizing: border-box;
+    line-height: 20px;
 }
 
+body {
+    width: 100%;
+    min-height: 100dvh;
+    background-image: url(../assets/wallpaper\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 500;
+    font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    text-shadow: 1.5px 1.5px 2px rgb(184, 151, 18);
+    background-color: rgba(255, 255, 255, 0.475);
+    border-radius: 8px;
+    padding: 0.3rem;
+    font-size: 2rem;
+}
+
+
 #head-div {
+    margin-top: 2dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    flex-wrap: wrap;
+    z-index: 0;
+    border: 0.1vw red solid;
 }
 
 #head-div h1 {
-    font-size: 35px;
+    font-size: 2rem;
     font-family: 'Satisfy', cursive;
+    background-image: linear-gradient(rgb(170, 56, 56), rgb(0, 247, 255rgb(51, 0, 255)0));
 }
 
 #img-main {
-    width: 15.5rem;
-    height: 10.5rem;
+    margin-top: 1.2dvh;
+    border: 2px rgb(59, 44, 12) solid;
+    width: 13.5rem;
+    height: 8.5rem;
 }
 
 #label-img {
-    font-size: 25px;
     font-family: 'Satisfy', cursive;
 }
 
 #ingredients-div {
-    position: relative;
-    left: 10%;
+    border: 0.1vw red solid;
     font-family: 'Satisfy', cursive;
     line-height: 22px;
+    margin-top: 5dvh;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#ingredients-div>* {
+    margin-top: 1.5dvh;
+}
+
+#ingredients-div ol>* {
+    background-color: aqua;
+    border-radius: 5px;
+    border: 3px blue solid;
+    width: 90vw;
+    margin-top: 1.5dvh;
 }
 
 #ingredients-div ol {
-    list-style-type: square;
+    list-style-image: url(../assets/fork-and-knife-png-3680.png);
 }
 
 #way-of-preparation-div {
-    position: relative;
-    left: 10%;
-    margin-top: 1%;
+    border: 0.1vw red solid;
     font-family: 'Satisfy', cursive;
-    line-height: 27px;
+    line-height: 22px;
+    margin-top: 5dvh;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#way-of-preparation-div>* {
+    margin-top: 1.5dvh;
 }
 
 #way-of-preparation-div ol {
-    list-style: decimal;
+    list-style-image: url(../assets/fork-and-knife-png-3680.png);
+}
+
+#way-of-preparation-div ol>* {
+    margin-top: 1.5dvh;
+    width: 90vw;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 3px blue solid;
+    height: auto;
+}
+
+ol {
+    text-align: center;
+}
+
+#finalization {
+    margin-top: 9dvh;
+    margin-bottom: 3dvh;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 3px blue solid;
+    text-align: center;
+    min-height: 8vh;
+    padding: 1rem;
+    width: 90vw;
+}
+
+
+
+@media (min-width: 1024px) {
+    #ingredients-div {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+    #way-of-preparation-div {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:800px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    #way-of-preparation-div ol>* {
+        width: 77vw;
+        margin-left: 2%;
+    }
+
+    #ingredients-div ol>* {
+        width: 77vw;
+        margin-left: 2%;
+    }
+
+    #finalization {
+        margin-left: 2%;
+    }
 }
