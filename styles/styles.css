@@ -26,16 +26,28 @@ label {
     font-size: 1.8rem;
 }
 
-
-#head-div {
-    margin-top: 2dvh;
+.division-of-head-div-left {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+}
+
+
+.division-of-head-div-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#head-div {
+    margin-top: 3dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     z-index: 0;
-    border: 0.1vw red solid;
+
 }
 
 #head-div h1 {
@@ -58,6 +70,18 @@ label {
 
 }
 
+#img-main {
+    margin-top: 1.2dvh;
+    border: 2px rgb(59, 44, 12) solid;
+    width: 35vw;
+}
+
+#label-img {
+    font-family: 'Satisfy', cursive;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
 #video-example {
     position: sticky;
     top: 10vh;
@@ -69,25 +93,13 @@ label {
     margin-right: 0.5vw;
 }
 
-#img-main {
-    margin-top: 1.2dvh;
-    border: 2px rgb(59, 44, 12) solid;
-    width: 25vw;
-}
-
-#label-img {
-    font-family: 'Satisfy', cursive;
-}
-
 #ingredients-div-video {
-    margin-top: 5dvh;
+    margin-top: 10dvh;
     display: flex;
     flex-direction: row-reverse;
-    border: 0.3vw red solid;
 }
 
 #ingredients-div {
-    border: 0.1vw red solid;
     font-family: 'Satisfy', cursive;
     line-height: 22px;
     height: auto;
@@ -118,8 +130,9 @@ label {
     list-style-image: url(../assets/fork-and-knife-png-3680.png);
 }
 
+/* ------------------------------------------------------------------------------------------------------------------ */
+
 #way-of-preparation-div {
-    border: 0.1vw red solid;
     font-family: 'Satisfy', cursive;
     line-height: 22px;
     margin-top: 5dvh;
@@ -155,6 +168,7 @@ li {
     text-align: center;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 #finalization {
     margin-top: 9dvh;
@@ -174,8 +188,19 @@ li {
     justify-content: center;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 @media only screen and (min-width:1420px) {
+    #head-div {
+        padding: 0px 6rem;
+    }
+
+    .recipes-infos>p {
+        margin-top: 3rem;
+        font-size: 2rem;
+
+    }
+
     body {
         font-size: 1.5rem;
 
@@ -242,6 +267,21 @@ li {
 
 
 @media only screen and (min-width:450px) and (max-width:700px) {
+    #head-div {
+        padding: 0px;
+    }
+
+    .division-of-head-div-left {
+        padding: 0px;
+    }
+
+    .recipes-infos>p {
+        font-size: 1.3rem;
+        width: 30vw;
+
+    }
+
+
     body {
         font-size: 1.4rem;
     }
@@ -271,6 +311,20 @@ li {
 }
 
 @media only screen and (max-width:450px) {
+    #head-div {
+        padding: 0px;
+    }
+
+    .division-of-head-div-left {
+        padding: 0px;
+    }
+
+    .recipes-infos>p {
+        font-size: 1.3rem;
+        width: 30vw;
+
+    }
+
     body {
         font-size: 1.2rem;
     }
