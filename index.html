@@ -1,88 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="language" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <!-- fonts links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <!-- fonts links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 
-    <script src="index.js"></script>
-    <link rel="icon" href="assets/icon.png" type="image/x-icon" />
-    <title>Recipes</title>
+  <script src="index.js"></script>
+  <link rel="icon" href="assets/icon.png" type="image/x-icon" />
+  <title>Recipes</title>
 
 </head>
 
 <body>
-
-    <div id="head-div">
-        <div class="division-of-head-div-left">
-            <h1>
-                cheese bread pie recipe
-            </h1>
-            <div class="recipes-infos">
-
-                <p>Prep Time: 20 min</p>
-                <p>Cook Time: 40 min</p>
-                <p>Servings: 8</p>
-
-            </div>
-        </div>
-
-
-        <div class="division-of-head-div-right">
-            <img src="./assets/example.avif" alt="pie image" id="img-main"><br>
-            <label for="img-main" id="label-img">the beatifull cheese bread ready!!</label>
-        </div>
-    </div>
-
-
-    <div id="ingredients-div-video">
-        <video src="../Projeto recipes/assets/video-example.mp4" autoplay controls loop id="video-example"></video>
-        <div id="ingredients-div">
-            <h3>ingredients List:</h3>
-
-            <ol>
-                <li>3 cups sour cassava flour</li>
-                <li>3 eggs</li>
-                <li>1 cup Brazilian fresh, half-cured cheese, grated</li>
-                <li>1/2 cup oil</li>
-                <li>1 cup warm milk</li>
-                <li>Pinch of salt</li>
-                <li>1 teaspoon baking powder</li>
-                <li>7 ounces ham, chopped</li>
-                <li>3 1/2 ounces bacon, chopped</li>
-                <li>1 cup mozzarella cheese, grated</li>
-                <li>1 cup cherry tomatoes, halved</li>
-                <li>1 teaspoon oregano</li>
-                <li>1 cup Parmesan cheese, grated</li>
-            </ol>
-        </div>
-    </div>
-
-    <div id="way-of-preparation-div">
-        <h3>way of preparation:</h3>
-        <ol>
-            <li> oven to 350 degrees.</li>
-            <li>In a blender, combine the flour, eggs, cheese, oil and milk. Transfer mixture to a medium bowl. Add salt
-                and baking powder and mix gently.</li>
-            <li>Pour half of the mixture into a greased and floured baking dish.</li>
-            <li>Sprinkle in the chopped ham, bacon, grated mozzarella cheese, tomatoes and oregano.</li>
-            <li>Cover with the rest of the batter, and sprinkle with the Parmesan cheese.</li>
-            <li>Place oven for approximately 40 minutes.</li>
-        </ol>
-
-        <p id="finalization">in the final you will have a beatifull pie of cheese bread!
-        </p>
-
-    </div>
-
-
+  <div id="root"></div>
+  <script type="module" src="/main.tsx"></script>
 </body>
 
 </html>
