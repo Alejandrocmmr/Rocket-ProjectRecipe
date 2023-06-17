@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/reset.css'
-import '../styles/styles.css'
+import '../Styles/reset.css'
+import '../Styles/styles.css'
 
 export function English() {
 
@@ -22,14 +22,14 @@ export function English() {
 
 
                 <section className="division-of-head-div-right">
-                    <img src="../assets/example.avif" alt="pie image" id="img-main"></img>
+                    <img src="../Assets/example.avif" alt="pie image" id="img-main"></img>
                     <label htmlFor="img-main" id="label-img">The Beatifull Cheese Bread Pie Finished!!</label>
                 </section>
             </main >
 
 
             <main id="ingredients-div-video">
-                <video src="../assets/video-example.mp4" autoPlay controls loop id="video-example"></video>
+                <video src="../Assets/video-example.mp4" autoPlay controls loop id="video-example"></video>
                 <nav id="ingredients-div">
                     <h3>Ingredients List:</h3>
 

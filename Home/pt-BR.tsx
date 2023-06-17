@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/reset.css'
-import '../styles/styles.css'
+import '../Styles/reset.css'
+import '../Styles/styles.css'
 
 export function Portuguese() {
 
@@ -22,14 +22,14 @@ export function Portuguese() {
 
 
                 <section className="division-of-head-div-right">
-                    <img src="../assets/example.avif" alt="pie image" id="img-main"></img>
+                    <img src="../Assets/example.avif" alt="pie image" id="img-main"></img>
                     <label htmlFor="img-main" id="label-img">A Linda Torta Prontinha!!</label>
                 </section>
             </main >
 
 
             <main id="ingredients-div-video">
-                <video src="../assets/video-example.mp4" autoPlay controls loop id="video-example"></video>
+                <video src="../Assets/video-example.mp4" autoPlay controls loop id="video-example" ></video>
                 <nav id="ingredients-div">
                     <h3>Lista de Ingredientes:</h3>
 
@@ -49,12 +49,12 @@ export function Portuguese() {
                         <li>1 Xícara de queijo parmesão ralado</li>
                     </ol>
                 </nav>
-            </main>
+            </main >
 
             <main id="way-of-preparation-div">
                 <h3>Modo de preparo:</h3>
                 <ol>
-                    <li>Forno a 350 graus</li>
+                    <li>Forno a 250 graus</li>
                     <li>No liquidificador, bata a farinha, os ovos, o queijo, o óleo e o leite. Transfira a mistura para uma tigela média. Adicione sal
                         e o fermento em pó e misture delicadamente.</li>
                     <li>Despeje metade da massa em uma assadeira untada e enfarinhada.</li>

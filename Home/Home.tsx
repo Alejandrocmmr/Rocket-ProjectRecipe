@@ -10,7 +10,7 @@ let Languagenavigator = window.navigator.language
 export function Home() {
     if (Languagenavigator == "en" || Languagenavigator == "en-US") {
 
-        LanguageHtml?.setAttribute("lang", "En")
+        LanguageHtml?.setAttribute("lang", "en-us")
 
         return (
             <>

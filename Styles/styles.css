@@ -5,7 +5,7 @@
 body {
     width: 100%;
     min-height: 100dvh;
-    background-image: url(../assets/wallpaper\ background.jpg);
+    background-image: url(../Assets/wallpaper\ background.jpg);
     background-repeat: repeat;
     background-size: contain;
     z-index: 500;
@@ -127,7 +127,7 @@ label {
 }
 
 #ingredients-div ol {
-    list-style-image: url(../assets/fork-and-knife-png-3680.png);
+    list-style-image: url(../Assets/fork-and-knife-png-3680.png);
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
@@ -150,7 +150,7 @@ label {
 }
 
 #way-of-preparation-div ol {
-    list-style-image: url(../assets/fork-and-knife-png-3680.png);
+    list-style-image: url(../Assets/fork-and-knife-png-3680.png);
 }
 
 #way-of-preparation-div ol>* {
