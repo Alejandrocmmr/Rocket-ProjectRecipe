@@ -6,7 +6,6 @@ let LanguageHtml = document.querySelector("#language")
 
 let Languagenavigator = window.navigator.language
 
-
 export function Home() {
     if (Languagenavigator == "en" || Languagenavigator == "en-US") {
 
@@ -25,6 +24,14 @@ export function Home() {
         return (
             <>
                 <Portuguese />
+            </>
+        )
+    }else if(Languagenavigator !== "pt-BR" && Languagenavigator !== "pt" && Languagenavigator !== "en" && Languagenavigator !=="en-US" ) {
+        LanguageHtml?.setAttribute("lang", "en-us")
+
+        return (
+            <>
+                <English />
             </>
         )
     }
